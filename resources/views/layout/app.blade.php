@@ -25,6 +25,7 @@
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
   <!-- Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
   <link href="assets/css/main.css" rel="stylesheet">
 
   <!-- =======================================================
@@ -38,9 +39,9 @@
 
 <body>
     @include('layout.header')
+    <div class="cover">@yield('content_cover')</div>
+    
     <div class="container">
-    
-    
         @yield('content')
     </div>
     @include('layout.footer')

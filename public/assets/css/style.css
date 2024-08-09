@@ -1,0 +1,23 @@
+:root {
+    --primaryTextColor: #5356FF;
+    --secondryTextColor: #378CE7;
+
+    --Tulisan: #1D2B53;
+    --Tulisan2: #0C2D57;
+
+    --borderColor: #67C6E3;
+    --lineColor: #DFF5FF;
+
+    --primaryBackgroundColor: #5356FF;
+    --secondryBackgroundColor: #378CE7;
+    --thirdryBackgroundColor: ;
+
+    --primaryIconColor: #378CE7;
+    --primaryIconColorHover: #67C6E3;
+
+    --sectionPadding: 6rem 0;
+    --itemBorderRadius: 0.7rem;
+}
+*{
+    box-sizing: border-box;
+}
